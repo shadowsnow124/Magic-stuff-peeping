@@ -1,13 +1,18 @@
-# Magic-stuff-peeping
+Magic-stuff-peeping
 
-## How it work
-Magic stuff peeping use ultrasonic sound wave and measure the lenght by calculate how long the aound bound back to the reciver and check is it match the condition that have been set on and sent alert signal to the buzzer
+How it works  
+Magic-stuff-peeping uses ultrasonic sound waves and measures the length by calculating how long the sound bounces back to the receiver, then checks whether it matches the set conditions and sends an alert signal to the buzzer.  
 
-## Component
-- Arduino UNO
-- Ultrasonic Sensor
-- 5v Buzzer 
-- BC547 transistor 
-- 330ohm Resistor 
-- 10k Resistor 
-- 2x1.5v AA Battery Rail
+Components  
+Arduino UNO  
+Ultrasonic Sensor  
+5V Buzzer  
+BC547 transistor  
+330-ohm resistor  
+10k resistor  
+2×1.5V AA battery rail  
+
+Performance  
+Detection range up to 30 cm  
+Can run continuously up to 24 hours  
+Easy to build, fix, and modify
