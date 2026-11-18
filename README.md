@@ -10,3 +10,4 @@ Magic stuff peeping use ultrasonic sound wave and measure the lenght by calculat
 - BC547 transistor 
 - 330ohm Resistor 
 - 10k Resistor 
+- 2x1.5v AA Battery Rail
