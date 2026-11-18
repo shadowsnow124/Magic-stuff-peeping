@@ -13,14 +13,12 @@ void setup() {
 }
 
 void loop() {
-  // Clear Trig pin and send a 10-microsecond HIGH pulse
   digitalWrite(trigPin, LOW);
   delayMicroseconds(2);
   digitalWrite(trigPin, HIGH);
   delayMicroseconds(10);  
   digitalWrite(trigPin, LOW);
 
-  // Timeout 30 ms (~5 m) so the loop doesn't stall for 1 s on no echo
   long duration = pulseIn(echoPin, HIGH, 30000UL);
   float distanceCm = (duration * 0.034) / 2.0;
 
@@ -33,7 +31,7 @@ void loop() {
     Serial.println(" cm");
 
     if (distanceCm < THRESHOLD_CM) {
-      digitalWrite(buzzer_out, HIGH);   // object closer than 10 cm
+      digitalWrite(buzzer_out, HIGH);
     } else {
       digitalWrite(buzzer_out, LOW);
     }
